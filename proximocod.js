@@ -5,7 +5,8 @@ function inccod()
 	var codigo = document.getElementById("id_sc_field_codigo").value;
 	if (codigo > 2000000)
 	{
-		{ pcodigo++;window.localStorage.setItem('pcod', pcodigo);
+		pcodigo++;
+		window.localStorage.setItem('pcod', pcodigo);
 	}
 };
 window.localStorage.setItem('pcod', 3500001);
