@@ -1,7 +1,7 @@
 // Rotina Javascript para arrumar "próximo código" do cadastro de roupas.
 // Desenvolvido (de uma maneira MUITO simples) por Paulo César Fratantonio
 
-window.localStorage.setItem('pcod', 5);	// # # USAR SOMENTE A 1A VEZ! # #
+window.localStorage.setItem('pcod', 3000000);	// # # USAR SOMENTE A 1A VEZ! # #
 var pcodigo = window.localStorage.getItem('pcod'); // TRAZ O CODIGO DO STORAGE
 document.getElementById("id_sc_field_codigo").value = pcodigo; // ACERTA O CAMPO DO CÓDIGO
 
@@ -15,3 +15,5 @@ function inccod()
 		{ pcodigo++;window.localStorage.setItem('pcod', pcodigo);
 	}
 }
+
+// javascript:(function () { $('<script>').attr('src', 'https://raw.githubusercontent.com/Punisher07/js2/master/proximocod.js'); })();
